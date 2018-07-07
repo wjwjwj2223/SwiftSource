@@ -14,6 +14,8 @@
 		A06C328B20EF157F006E92E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06C328920EF157F006E92E5 /* LaunchScreen.storyboard */; };
 		A06C329620EF157F006E92E5 /* SwiftSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C329520EF157F006E92E5 /* SwiftSourceTests.swift */; };
 		A06C32A120EF157F006E92E5 /* SwiftSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32A020EF157F006E92E5 /* SwiftSourceUITests.swift */; };
+		A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32AF20EF2AC8006E92E5 /* Array+func.swift */; };
+		A06C32B520F05B06006E92E5 /* Sequence+last.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32B420F05B06006E92E5 /* Sequence+last.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A06C329C20EF157F006E92E5 /* SwiftSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06C32A020EF157F006E92E5 /* SwiftSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSourceUITests.swift; sourceTree = "<group>"; };
 		A06C32A220EF157F006E92E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06C32AF20EF2AC8006E92E5 /* Array+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+func.swift"; sourceTree = "<group>"; };
+		A06C32B420F05B06006E92E5 /* Sequence+last.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+last.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		A06C327F20EF157F006E92E5 /* SwiftSource */ = {
 			isa = PBXGroup;
 			children = (
+				A06C32B320F05AD5006E92E5 /* Sequence */,
+				A06C32AE20EF2AB2006E92E5 /* Array */,
 				A06C328020EF157F006E92E5 /* AppDelegate.swift */,
 				A06C328220EF157F006E92E5 /* ViewController.swift */,
 				A06C328420EF157F006E92E5 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				A06C32A220EF157F006E92E5 /* Info.plist */,
 			);
 			path = SwiftSourceUITests;
+			sourceTree = "<group>";
+		};
+		A06C32AE20EF2AB2006E92E5 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				A06C32AF20EF2AC8006E92E5 /* Array+func.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		A06C32B320F05AD5006E92E5 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				A06C32B420F05B06006E92E5 /* Sequence+last.swift */,
+			);
+			path = Sequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06C32B520F05B06006E92E5 /* Sequence+last.swift in Sources */,
 				A06C328320EF157F006E92E5 /* ViewController.swift in Sources */,
+				A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */,
 				A06C328120EF157F006E92E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

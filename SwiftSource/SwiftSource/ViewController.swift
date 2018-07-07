@@ -12,14 +12,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //展平数组
+    func flattenMap() {
+        let res =  [[1,2],[3,4]].flatMap{$0.map{$0}}
+        print(res)//[1,2,3,4]
     }
 
-
+    //合并数组
+    func combineMap() {
+        let array1 = [1,2]
+        let array2 = [3,4]
+        let result = array1.flatMap { a in
+            array2.map{ b in
+                (a,b)
+            }
+        }
+        print(result)
+    }
+    
+    
 }
 
