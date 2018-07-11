@@ -15,7 +15,15 @@
 		A06C329620EF157F006E92E5 /* SwiftSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C329520EF157F006E92E5 /* SwiftSourceTests.swift */; };
 		A06C32A120EF157F006E92E5 /* SwiftSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32A020EF157F006E92E5 /* SwiftSourceUITests.swift */; };
 		A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32AF20EF2AC8006E92E5 /* Array+func.swift */; };
-		A06C32B520F05B06006E92E5 /* Sequence+last.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32B420F05B06006E92E5 /* Sequence+last.swift */; };
+		A06C32B520F05B06006E92E5 /* Sequence+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06C32B420F05B06006E92E5 /* Sequence+func.swift */; };
+		A0995FB120F4511B00E677FA /* Dictionary+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FB020F4511B00E677FA /* Dictionary+func.swift */; };
+		A0995FB420F4618700E677FA /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FB320F4618700E677FA /* Range.swift */; };
+		A0995FB720F46BBE00E677FA /* FibsIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FB620F46BBE00E677FA /* FibsIterator.swift */; };
+		A0995FB920F46DDA00E677FA /* PrefixIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FB820F46DDA00E677FA /* PrefixIterator.swift */; };
+		A0995FBC20F487FB00E677FA /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FBB20F487FB00E677FA /* List.swift */; };
+		A0995FBF20F49B4F00E677FA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FBE20F49B4F00E677FA /* Queue.swift */; };
+		A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC120F4B2AF00E677FA /* Optional.swift */; };
+		A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC320F4C15C00E677FA /* Optional+func.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +58,15 @@
 		A06C32A020EF157F006E92E5 /* SwiftSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSourceUITests.swift; sourceTree = "<group>"; };
 		A06C32A220EF157F006E92E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A06C32AF20EF2AC8006E92E5 /* Array+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+func.swift"; sourceTree = "<group>"; };
-		A06C32B420F05B06006E92E5 /* Sequence+last.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+last.swift"; sourceTree = "<group>"; };
+		A06C32B420F05B06006E92E5 /* Sequence+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+func.swift"; sourceTree = "<group>"; };
+		A0995FB020F4511B00E677FA /* Dictionary+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+func.swift"; sourceTree = "<group>"; };
+		A0995FB320F4618700E677FA /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		A0995FB620F46BBE00E677FA /* FibsIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibsIterator.swift; sourceTree = "<group>"; };
+		A0995FB820F46DDA00E677FA /* PrefixIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixIterator.swift; sourceTree = "<group>"; };
+		A0995FBB20F487FB00E677FA /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		A0995FBE20F49B4F00E677FA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		A0995FC120F4B2AF00E677FA /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		A0995FC320F4C15C00E677FA /* Optional+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+func.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,12 @@
 		A06C327F20EF157F006E92E5 /* SwiftSource */ = {
 			isa = PBXGroup;
 			children = (
+				A0995FC020F4B29500E677FA /* Optional */,
+				A0995FBD20F49B4000E677FA /* Queue */,
+				A0995FBA20F487F000E677FA /* List */,
+				A0995FB520F46B8F00E677FA /* IteratorProtocol */,
+				A0995FB220F4617A00E677FA /* Range */,
+				A0995FAF20F450FC00E677FA /* Dictionary */,
 				A06C32B320F05AD5006E92E5 /* Sequence */,
 				A06C32AE20EF2AB2006E92E5 /* Array */,
 				A06C328020EF157F006E92E5 /* AppDelegate.swift */,
@@ -142,9 +164,59 @@
 		A06C32B320F05AD5006E92E5 /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
-				A06C32B420F05B06006E92E5 /* Sequence+last.swift */,
+				A06C32B420F05B06006E92E5 /* Sequence+func.swift */,
 			);
 			path = Sequence;
+			sourceTree = "<group>";
+		};
+		A0995FAF20F450FC00E677FA /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FB020F4511B00E677FA /* Dictionary+func.swift */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		A0995FB220F4617A00E677FA /* Range */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FB320F4618700E677FA /* Range.swift */,
+			);
+			path = Range;
+			sourceTree = "<group>";
+		};
+		A0995FB520F46B8F00E677FA /* IteratorProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FB620F46BBE00E677FA /* FibsIterator.swift */,
+				A0995FB820F46DDA00E677FA /* PrefixIterator.swift */,
+			);
+			path = IteratorProtocol;
+			sourceTree = "<group>";
+		};
+		A0995FBA20F487F000E677FA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FBB20F487FB00E677FA /* List.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A0995FBD20F49B4000E677FA /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FBE20F49B4F00E677FA /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		A0995FC020F4B29500E677FA /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				A0995FC120F4B2AF00E677FA /* Optional.swift */,
+				A0995FC320F4C15C00E677FA /* Optional+func.swift */,
+			);
+			path = Optional;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06C32B520F05B06006E92E5 /* Sequence+last.swift in Sources */,
+				A0995FB720F46BBE00E677FA /* FibsIterator.swift in Sources */,
+				A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */,
+				A06C32B520F05B06006E92E5 /* Sequence+func.swift in Sources */,
 				A06C328320EF157F006E92E5 /* ViewController.swift in Sources */,
 				A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */,
+				A0995FB420F4618700E677FA /* Range.swift in Sources */,
+				A0995FBF20F49B4F00E677FA /* Queue.swift in Sources */,
+				A0995FB120F4511B00E677FA /* Dictionary+func.swift in Sources */,
 				A06C328120EF157F006E92E5 /* AppDelegate.swift in Sources */,
+				A0995FB920F46DDA00E677FA /* PrefixIterator.swift in Sources */,
+				A0995FBC20F487FB00E677FA /* List.swift in Sources */,
+				A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -29,7 +30,11 @@ class ViewController: UIViewController {
                 (a,b)
             }
         }
-        print(result)
+        print(result)//[(1,3),(1,4),(2,3),(2,4)]
+    }
+
+    func test() {
+
     }
     
     

@@ -99,6 +99,21 @@ extension Array {
         }
     }
 
-    
+    //使用数组首个元素作为初始值
+    func reduce1(_ nextPartialResult:(Element,Element)->Element) -> Element? {
+        guard let fst = first else {
+            return nil
+        }
+        return dropFirst().reduce(fst, nextPartialResult)
+    }
+
+    //使用数组首个元素作为初始值
+    func reduce2(_ nextPartialResult:(Element,Element)->Element) -> Element? {
+        return first.map{
+            dropFirst().reduce($0, nextPartialResult)
+        }
+    }
+
+
 
 }
