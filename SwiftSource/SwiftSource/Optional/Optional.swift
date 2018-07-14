@@ -14,9 +14,11 @@ class OptionalTest {
     static func optionalIterator() {
         let stringNumbers = ["1","2","three"]
         let maybeInts = stringNumbers.map{Int($0)}
+
         for maybeInt in maybeInts {
             //maybeInt是一个Int？
         }
+
         for case let i? in maybeInts {
             print(i)
         }

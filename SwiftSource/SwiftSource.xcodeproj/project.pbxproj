@@ -25,6 +25,7 @@
 		A0995FBF20F49B4F00E677FA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FBE20F49B4F00E677FA /* Queue.swift */; };
 		A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC120F4B2AF00E677FA /* Optional.swift */; };
 		A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC320F4C15C00E677FA /* Optional+func.swift */; };
+		A0AB57E120F75391003702BC /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB57E020F75391003702BC /* Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		A0995FBE20F49B4F00E677FA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		A0995FC120F4B2AF00E677FA /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		A0995FC320F4C15C00E677FA /* Optional+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+func.swift"; sourceTree = "<group>"; };
+		A0AB57E020F75391003702BC /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		A06C327F20EF157F006E92E5 /* SwiftSource */ = {
 			isa = PBXGroup;
 			children = (
+				A0AB57DF20F75131003702BC /* Sort */,
 				A08D089120F65D5400C33666 /* writingforcopy */,
 				A0995FC020F4B29500E677FA /* Optional */,
 				A0995FBD20F49B4000E677FA /* Queue */,
@@ -228,6 +231,14 @@
 				A0995FC320F4C15C00E677FA /* Optional+func.swift */,
 			);
 			path = Optional;
+			sourceTree = "<group>";
+		};
+		A0AB57DF20F75131003702BC /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A0AB57E020F75391003702BC /* Sort.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,6 +386,7 @@
 				A06C328120EF157F006E92E5 /* AppDelegate.swift in Sources */,
 				A08D089320F65D7F00C33666 /* MyData.swift in Sources */,
 				A0995FB920F46DDA00E677FA /* PrefixIterator.swift in Sources */,
+				A0AB57E120F75391003702BC /* Sort.swift in Sources */,
 				A0995FBC20F487FB00E677FA /* List.swift in Sources */,
 				A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */,
 			);
