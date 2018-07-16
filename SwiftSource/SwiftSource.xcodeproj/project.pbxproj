@@ -26,6 +26,25 @@
 		A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC120F4B2AF00E677FA /* Optional.swift */; };
 		A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FC320F4C15C00E677FA /* Optional+func.swift */; };
 		A0AB57E120F75391003702BC /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB57E020F75391003702BC /* Sort.swift */; };
+		FCC99D8720FC406E00C096BC /* Inout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D8620FC406E00C096BC /* Inout.swift */; };
+		FCC99D8920FC42AF00C096BC /* Inout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D8620FC406E00C096BC /* Inout.swift */; };
+		FCC99D8C20FC48FE00C096BC /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D8B20FC48FE00C096BC /* Property.swift */; };
+		FCC99D8F20FC4AE500C096BC /* Collection+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D8E20FC4AE500C096BC /* Collection+func.swift */; };
+		FCC99D9020FC4DEE00C096BC /* Collection+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D8E20FC4AE500C096BC /* Collection+func.swift */; };
+		FCC99D9220FC4E1B00C096BC /* SubscriptTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9120FC4E1B00C096BC /* SubscriptTest.swift */; };
+		FCC99D9320FC52B200C096BC /* Dictionary+func.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995FB020F4511B00E677FA /* Dictionary+func.swift */; };
+		FCC99D9620FC57AF00C096BC /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9520FC57AF00C096BC /* KeyPath.swift */; };
+		FCC99D9720FC58B600C096BC /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9520FC57AF00C096BC /* KeyPath.swift */; };
+		FCC99D9920FC58C500C096BC /* KeyPathTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9820FC58C500C096BC /* KeyPathTest.swift */; };
+		FCC99D9C20FC881A00C096BC /* AutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9B20FC881A00C096BC /* AutoClosure.swift */; };
+		FCC99D9F20FC8BB700C096BC /* Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99D9E20FC8BB700C096BC /* Escaping.swift */; };
+		FCC99DA120FC8CED00C096BC /* WithoutActuallyEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA020FC8CED00C096BC /* WithoutActuallyEscaping.swift */; };
+		FCC99DA420FC96D800C096BC /* OptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA320FC96D800C096BC /* OptionalError.swift */; };
+		FCC99DA520FC982600C096BC /* OptionalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA320FC96D800C096BC /* OptionalError.swift */; };
+		FCC99DA720FC983A00C096BC /* OptionalErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA620FC983A00C096BC /* OptionalErrorTest.swift */; };
+		FCC99DAA20FCA19300C096BC /* IsSubset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA920FCA19300C096BC /* IsSubset.swift */; };
+		FCC99DAE20FCA9DC00C096BC /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DAD20FCA9DC00C096BC /* BinarySearch.swift */; };
+		FCC99DB120FCBAAA00C096BC /* FisherYates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DB020FCBAAA00C096BC /* FisherYates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +90,20 @@
 		A0995FC120F4B2AF00E677FA /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		A0995FC320F4C15C00E677FA /* Optional+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+func.swift"; sourceTree = "<group>"; };
 		A0AB57E020F75391003702BC /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		FCC99D8620FC406E00C096BC /* Inout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inout.swift; sourceTree = "<group>"; };
+		FCC99D8B20FC48FE00C096BC /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		FCC99D8E20FC4AE500C096BC /* Collection+func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+func.swift"; sourceTree = "<group>"; };
+		FCC99D9120FC4E1B00C096BC /* SubscriptTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptTest.swift; sourceTree = "<group>"; };
+		FCC99D9520FC57AF00C096BC /* KeyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
+		FCC99D9820FC58C500C096BC /* KeyPathTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathTest.swift; sourceTree = "<group>"; };
+		FCC99D9B20FC881A00C096BC /* AutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosure.swift; sourceTree = "<group>"; };
+		FCC99D9E20FC8BB700C096BC /* Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escaping.swift; sourceTree = "<group>"; };
+		FCC99DA020FC8CED00C096BC /* WithoutActuallyEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutActuallyEscaping.swift; sourceTree = "<group>"; };
+		FCC99DA320FC96D800C096BC /* OptionalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalError.swift; sourceTree = "<group>"; };
+		FCC99DA620FC983A00C096BC /* OptionalErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalErrorTest.swift; sourceTree = "<group>"; };
+		FCC99DA920FCA19300C096BC /* IsSubset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubset.swift; sourceTree = "<group>"; };
+		FCC99DAD20FCA9DC00C096BC /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		FCC99DB020FCBAAA00C096BC /* FisherYates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherYates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +154,14 @@
 		A06C327F20EF157F006E92E5 /* SwiftSource */ = {
 			isa = PBXGroup;
 			children = (
+				FCC99DA820FCA16800C096BC /* 泛型 */,
+				FCC99DA220FC96C400C096BC /* New Group */,
+				FCC99D9D20FC8BAA00C096BC /* Escaping */,
+				FCC99D9A20FC87FA00C096BC /* AutoClosure */,
+				FCC99D9420FC579D00C096BC /* KeyPath */,
+				FCC99D8D20FC4AD800C096BC /* Collection */,
+				FCC99D8A20FC48D200C096BC /* property */,
+				FCC99D8520FC405D00C096BC /* Inout */,
 				A0AB57DF20F75131003702BC /* Sort */,
 				A08D089120F65D5400C33666 /* writingforcopy */,
 				A0995FC020F4B29500E677FA /* Optional */,
@@ -144,6 +185,9 @@
 		A06C329420EF157F006E92E5 /* SwiftSourceTests */ = {
 			isa = PBXGroup;
 			children = (
+				FCC99DA620FC983A00C096BC /* OptionalErrorTest.swift */,
+				FCC99D9820FC58C500C096BC /* KeyPathTest.swift */,
+				FCC99D9120FC4E1B00C096BC /* SubscriptTest.swift */,
 				A06C329520EF157F006E92E5 /* SwiftSourceTests.swift */,
 				A06C329720EF157F006E92E5 /* Info.plist */,
 			);
@@ -239,6 +283,97 @@
 				A0AB57E020F75391003702BC /* Sort.swift */,
 			);
 			path = Sort;
+			sourceTree = "<group>";
+		};
+		FCC99D8520FC405D00C096BC /* Inout */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D8620FC406E00C096BC /* Inout.swift */,
+			);
+			path = Inout;
+			sourceTree = "<group>";
+		};
+		FCC99D8A20FC48D200C096BC /* property */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D8B20FC48FE00C096BC /* Property.swift */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
+		FCC99D8D20FC4AD800C096BC /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D8E20FC4AE500C096BC /* Collection+func.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		FCC99D9420FC579D00C096BC /* KeyPath */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D9520FC57AF00C096BC /* KeyPath.swift */,
+			);
+			path = KeyPath;
+			sourceTree = "<group>";
+		};
+		FCC99D9A20FC87FA00C096BC /* AutoClosure */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D9B20FC881A00C096BC /* AutoClosure.swift */,
+			);
+			path = AutoClosure;
+			sourceTree = "<group>";
+		};
+		FCC99D9D20FC8BAA00C096BC /* Escaping */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99D9E20FC8BB700C096BC /* Escaping.swift */,
+				FCC99DA020FC8CED00C096BC /* WithoutActuallyEscaping.swift */,
+			);
+			path = Escaping;
+			sourceTree = "<group>";
+		};
+		FCC99DA220FC96C400C096BC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DA320FC96D800C096BC /* OptionalError.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		FCC99DA820FCA16800C096BC /* 泛型 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DAF20FCBA6D00C096BC /* 洗牌算法 */,
+				FCC99DAC20FCA9B300C096BC /* 二分查找 */,
+				FCC99DAB20FCA97400C096BC /* 泛型约束重载 */,
+			);
+			path = "泛型";
+			sourceTree = "<group>";
+		};
+		FCC99DAB20FCA97400C096BC /* 泛型约束重载 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DA920FCA19300C096BC /* IsSubset.swift */,
+			);
+			path = "泛型约束重载";
+			sourceTree = "<group>";
+		};
+		FCC99DAC20FCA9B300C096BC /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DAD20FCA9DC00C096BC /* BinarySearch.swift */,
+			);
+			path = "二分查找";
+			sourceTree = "<group>";
+		};
+		FCC99DAF20FCBA6D00C096BC /* 洗牌算法 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DB020FCBAAA00C096BC /* FisherYates.swift */,
+			);
+			path = "洗牌算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,19 +511,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0995FB720F46BBE00E677FA /* FibsIterator.swift in Sources */,
+				FCC99D8F20FC4AE500C096BC /* Collection+func.swift in Sources */,
+				FCC99D9C20FC881A00C096BC /* AutoClosure.swift in Sources */,
+				FCC99DB120FCBAAA00C096BC /* FisherYates.swift in Sources */,
+				FCC99DAA20FCA19300C096BC /* IsSubset.swift in Sources */,
 				A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */,
 				A06C32B520F05B06006E92E5 /* Sequence+func.swift in Sources */,
+				FCC99D8720FC406E00C096BC /* Inout.swift in Sources */,
 				A06C328320EF157F006E92E5 /* ViewController.swift in Sources */,
+				FCC99DAE20FCA9DC00C096BC /* BinarySearch.swift in Sources */,
 				A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */,
 				A0995FB420F4618700E677FA /* Range.swift in Sources */,
+				FCC99DA120FC8CED00C096BC /* WithoutActuallyEscaping.swift in Sources */,
 				A0995FBF20F49B4F00E677FA /* Queue.swift in Sources */,
 				A0995FB120F4511B00E677FA /* Dictionary+func.swift in Sources */,
 				A06C328120EF157F006E92E5 /* AppDelegate.swift in Sources */,
 				A08D089320F65D7F00C33666 /* MyData.swift in Sources */,
+				FCC99D9620FC57AF00C096BC /* KeyPath.swift in Sources */,
 				A0995FB920F46DDA00E677FA /* PrefixIterator.swift in Sources */,
+				FCC99DA420FC96D800C096BC /* OptionalError.swift in Sources */,
 				A0AB57E120F75391003702BC /* Sort.swift in Sources */,
 				A0995FBC20F487FB00E677FA /* List.swift in Sources */,
 				A0995FC420F4C15C00E677FA /* Optional+func.swift in Sources */,
+				FCC99D8C20FC48FE00C096BC /* Property.swift in Sources */,
+				FCC99D9F20FC8BB700C096BC /* Escaping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +542,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC99D9720FC58B600C096BC /* KeyPath.swift in Sources */,
 				A06C329620EF157F006E92E5 /* SwiftSourceTests.swift in Sources */,
+				FCC99D9220FC4E1B00C096BC /* SubscriptTest.swift in Sources */,
+				FCC99D8920FC42AF00C096BC /* Inout.swift in Sources */,
+				FCC99D9320FC52B200C096BC /* Dictionary+func.swift in Sources */,
+				FCC99D9020FC4DEE00C096BC /* Collection+func.swift in Sources */,
+				FCC99DA520FC982600C096BC /* OptionalError.swift in Sources */,
+				FCC99D9920FC58C500C096BC /* KeyPathTest.swift in Sources */,
+				FCC99DA720FC983A00C096BC /* OptionalErrorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

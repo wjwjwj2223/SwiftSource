@@ -1,15 +1,15 @@
 //
-//  SwiftSourceTests.swift
+//  SubscriptTest.swift
 //  SwiftSourceTests
 //
-//  Created by 王杰 on 2018/7/6.
-//  Copyright © 2018 王杰. All rights reserved.
+//  Created by 曾婷 on 2018/7/16.
+//  Copyright © 2018年 王杰. All rights reserved.
 //
 
 import XCTest
 @testable import SwiftSource
 
-class SwiftSourceTests: XCTestCase {
+class SubscriptTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,8 +24,7 @@ class SwiftSourceTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let a = Inout().test()
-        assert(a == 1, "测试不通过")
+        dicSubscriptTest()
     }
     
     func testPerformanceExample() {
@@ -34,5 +33,4 @@ class SwiftSourceTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

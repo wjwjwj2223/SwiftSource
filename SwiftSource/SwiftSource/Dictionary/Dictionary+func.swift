@@ -31,3 +31,30 @@ func mergeTest() {
     }
     print(settingsAsStrings)
 }
+
+
+extension Dictionary {
+
+    subscript<Result>(key:Key,as type:Result.Type) -> Result? {
+        get {
+            return self[key] as? Result
+        }
+        set {
+            guard let value = newValue as? Value else {
+                return
+            }
+            self[key] = value
+        }
+    }
+}
+
+func dicSubscriptTest() {
+    var japan: [String: Any] = [ "name": "Japan",
+                                 "capital": "Tokyo", "population": 126_740_000, "coordinates": [
+                                    "latitude": 35.0,
+                                    "longitude": 139.0 ]
+    ]
+    //(japan["coordinates"] as? [String: Double])?["coordinate"] = 36.0
+    japan["coordinates", as: [String: Double].self]?["latitude"] = 36.0
+    
+}

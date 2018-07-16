@@ -13,7 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SortTestBySwift()
+        let b = self.compareWithAddp(People.addperson, people1: People(name:"wj") , people2: People(name:"zt"))
+        print(b)
     }
 
     //展平数组
@@ -35,9 +36,37 @@ class ViewController: UIViewController {
     }
 
     func test() {
-
+        
+    }
+    
+//------------------------------------------------------------
+    
+    //方法声明为函数类型
+    
+    let sort:(String)->(String)->ComparisonResult = String.localizedStandardCompare
+    
+    let equal:(String)->(String)->Bool = String.hasPrefix
+    
+    let addp:(People)->(People)->Bool = People.addperson
+    
+    func compareWithAddp(_ addp:(People)->(People)->Bool,people1:People,people2:People) -> Bool {
+        return addp(people1)(people2)
     }
     
     
 }
 
+
+class People {
+    
+    var name:String?
+    init(name:String) {
+        self.name = name
+    }
+    func addperson(p:People) -> Bool {
+        if self.name == p.name {
+            return true
+        }
+        return false
+    }
+}
