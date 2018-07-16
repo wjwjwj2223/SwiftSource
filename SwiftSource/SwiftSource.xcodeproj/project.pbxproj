@@ -45,6 +45,10 @@
 		FCC99DAA20FCA19300C096BC /* IsSubset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DA920FCA19300C096BC /* IsSubset.swift */; };
 		FCC99DAE20FCA9DC00C096BC /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DAD20FCA9DC00C096BC /* BinarySearch.swift */; };
 		FCC99DB120FCBAAA00C096BC /* FisherYates.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DB020FCBAAA00C096BC /* FisherYates.swift */; };
+		FCC99DB520FCF67200C096BC /* SimpleRealize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DB420FCF67200C096BC /* SimpleRealize.swift */; };
+		FCC99DB720FCF7F600C096BC /* SwiftRealize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DB620FCF7F600C096BC /* SwiftRealize.swift */; };
+		FCC99DBA20FD028800C096BC /* SelfProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DB920FD028800C096BC /* SelfProtocol.swift */; };
+		FCC99DBD20FD06CC00C096BC /* ProtocolNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC99DBC20FD06CC00C096BC /* ProtocolNature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +108,10 @@
 		FCC99DA920FCA19300C096BC /* IsSubset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubset.swift; sourceTree = "<group>"; };
 		FCC99DAD20FCA9DC00C096BC /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		FCC99DB020FCBAAA00C096BC /* FisherYates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisherYates.swift; sourceTree = "<group>"; };
+		FCC99DB420FCF67200C096BC /* SimpleRealize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRealize.swift; sourceTree = "<group>"; };
+		FCC99DB620FCF7F600C096BC /* SwiftRealize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRealize.swift; sourceTree = "<group>"; };
+		FCC99DB920FD028800C096BC /* SelfProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfProtocol.swift; sourceTree = "<group>"; };
+		FCC99DBC20FD06CC00C096BC /* ProtocolNature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolNature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,7 @@
 		A06C327F20EF157F006E92E5 /* SwiftSource */ = {
 			isa = PBXGroup;
 			children = (
+				FCC99DB220FCF62E00C096BC /* 协议 */,
 				FCC99DA820FCA16800C096BC /* 泛型 */,
 				FCC99DA220FC96C400C096BC /* New Group */,
 				FCC99D9D20FC8BAA00C096BC /* Escaping */,
@@ -376,6 +385,41 @@
 			path = "洗牌算法";
 			sourceTree = "<group>";
 		};
+		FCC99DB220FCF62E00C096BC /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DBB20FD069700C096BC /* 协议和泛型约束 */,
+				FCC99DB820FD026E00C096BC /* Self协议 */,
+				FCC99DB320FCF63D00C096BC /* 类型抹消 */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		FCC99DB320FCF63D00C096BC /* 类型抹消 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DB420FCF67200C096BC /* SimpleRealize.swift */,
+				FCC99DB620FCF7F600C096BC /* SwiftRealize.swift */,
+			);
+			path = "类型抹消";
+			sourceTree = "<group>";
+		};
+		FCC99DB820FD026E00C096BC /* Self协议 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DB920FD028800C096BC /* SelfProtocol.swift */,
+			);
+			path = "Self协议";
+			sourceTree = "<group>";
+		};
+		FCC99DBB20FD069700C096BC /* 协议和泛型约束 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99DBC20FD06CC00C096BC /* ProtocolNature.swift */,
+			);
+			path = "协议和泛型约束";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -514,8 +558,10 @@
 				FCC99D8F20FC4AE500C096BC /* Collection+func.swift in Sources */,
 				FCC99D9C20FC881A00C096BC /* AutoClosure.swift in Sources */,
 				FCC99DB120FCBAAA00C096BC /* FisherYates.swift in Sources */,
+				FCC99DB720FCF7F600C096BC /* SwiftRealize.swift in Sources */,
 				FCC99DAA20FCA19300C096BC /* IsSubset.swift in Sources */,
 				A0995FC220F4B2AF00E677FA /* Optional.swift in Sources */,
+				FCC99DB520FCF67200C096BC /* SimpleRealize.swift in Sources */,
 				A06C32B520F05B06006E92E5 /* Sequence+func.swift in Sources */,
 				FCC99D8720FC406E00C096BC /* Inout.swift in Sources */,
 				A06C328320EF157F006E92E5 /* ViewController.swift in Sources */,
@@ -523,12 +569,14 @@
 				A06C32B020EF2AC8006E92E5 /* Array+func.swift in Sources */,
 				A0995FB420F4618700E677FA /* Range.swift in Sources */,
 				FCC99DA120FC8CED00C096BC /* WithoutActuallyEscaping.swift in Sources */,
+				FCC99DBD20FD06CC00C096BC /* ProtocolNature.swift in Sources */,
 				A0995FBF20F49B4F00E677FA /* Queue.swift in Sources */,
 				A0995FB120F4511B00E677FA /* Dictionary+func.swift in Sources */,
 				A06C328120EF157F006E92E5 /* AppDelegate.swift in Sources */,
 				A08D089320F65D7F00C33666 /* MyData.swift in Sources */,
 				FCC99D9620FC57AF00C096BC /* KeyPath.swift in Sources */,
 				A0995FB920F46DDA00E677FA /* PrefixIterator.swift in Sources */,
+				FCC99DBA20FD028800C096BC /* SelfProtocol.swift in Sources */,
 				FCC99DA420FC96D800C096BC /* OptionalError.swift in Sources */,
 				A0AB57E120F75391003702BC /* Sort.swift in Sources */,
 				A0995FBC20F487FB00E677FA /* List.swift in Sources */,
